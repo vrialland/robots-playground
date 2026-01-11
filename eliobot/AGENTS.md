@@ -42,6 +42,13 @@ Eliobot is a small programmable robot that runs **CircuitPython** (a fork of Mic
 *   **Non-Blocking**: Use `time.monotonic()` for timing instead of `time.sleep()` if you need to do multiple things at once (cooperative multitasking).
 *   **Pinouts**: Refer to `pinout.py` (if populated) or the official documentation for pin mappings.
 
+### 4. Coding Standards & Git
+*   **Language**: All code and documentation MUST be written in **English**.
+*   **Comments**: Use comments strictly to explain *why* something is done (intent), not *what* is done. Avoid redundant comments for obvious code.
+*   **Commits**: Use **Conventional Commits** format.
+    *   Format: `<type>: <description>` (e.g., `feat: add collision detection`, `fix: correct pin assignment`).
+    *   Do **not** use scopes (e.g., avoid `feat(motor): ...`).
+
 ---
 
 ## 🚀 Quick Start
